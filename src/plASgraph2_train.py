@@ -172,7 +172,7 @@ def main(config_file : 'YAML configuration file',
             mode='min', verbose=1, restore_best_weights=True
         )]
     )
-    
+    print('FINISH!!!!!!!!')    
     # print losses to log files
     if log_dir is not None:
         with open(os.path.join(log_dir, "val_loss.csv"), "wt") as file:
